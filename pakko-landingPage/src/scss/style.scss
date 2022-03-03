@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 1232px;
+    margin: 0 auto;
+}
+
+
+@import "./header";
+@import "./footer";
+@import "./hero";
+
