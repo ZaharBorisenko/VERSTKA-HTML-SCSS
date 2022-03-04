@@ -1,0 +1,104 @@
+.tarif{
+
+    margin-top: 180px;
+
+    &__title{
+        font-size: 56px;
+        color: #100A30;
+        font-weight: 700;
+        margin: 0 auto;
+        width: 710px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    &__footer{
+        border-bottom: 5px;
+        padding: 15px 24px;
+    }
+
+    &__header{
+        padding-top: 10rem;
+        border-radius: 10px;
+    }
+
+    &-info{
+        background-color: #100A30;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 3rem 1rem 3rem;
+        
+        position: relative;
+
+        &__title{
+            font-size: 24px;
+            margin: 0;
+        }
+
+        &__price{
+            font-size: 48px;  
+            margin: 0;  
+            span{
+                font-size: 15px;
+            }
+        }
+
+        &__logo{
+            margin-bottom: 13px;
+        }
+    }
+
+
+    &__item-01{
+
+        .tarif__footer{
+          background-color: #DBDAE0;
+        }
+    }
+
+    &__item-02{
+
+        .tarif__footer{
+          background-color: #bfbec7;
+        }
+    }
+
+    &__item-03{
+
+        .tarif__footer{
+          background-color: #aaa5a5;
+        }
+    }
+}
+
+.tarif__items{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 33.333%;
+    align-items: flex-start;
+
+
+}
+
+.tarif-list{
+    list-style-type: none;
+    padding-left: 0;
+
+    li{
+        padding-left: 30px;
+        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.title2{
+    color: #19C787;
+}
+.title3{
+    color: #FF9F1C;
+}
+
+

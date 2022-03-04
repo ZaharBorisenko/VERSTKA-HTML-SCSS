@@ -1,0 +1,37 @@
+.footer {
+  margin-top: 100px;
+  background-color: #f8f8f9;
+
+  &__content {
+    margin-top: 55px;
+    margin-bottom: 20px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__items {
+    padding-left: 0;
+  }
+  &__logo {
+    color: #100a30;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  &__link {
+    list-style: none;
+    padding-bottom: 6px;
+
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #4c4764;
+    }
+  }
+}
+
+.social-img{
+    padding-right: 24px;
+}
