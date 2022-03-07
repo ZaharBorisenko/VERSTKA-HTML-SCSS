@@ -33,23 +33,22 @@
 ul, li:first-child{
     margin-left: 0px;
 }
-.item:last-child{
-    margin-left: 20px;
-    padding: 12px 24px;
-}
 
 
 .btn{
     background-color: #624DE3;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 20px;
+    padding: 12px 24px;
 
+    transition: 0.5s;
     a{
         color: #fff;
         font-size: 14px;
     }
+}
 
-    a:hover{
-        color: #fff;
-    }
+.btn:hover{
+    background-color: #f089bd;
 }
