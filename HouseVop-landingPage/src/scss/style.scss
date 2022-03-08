@@ -1,0 +1,17 @@
+// font-family: 'Playfair Display', serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+@import "./bootstrap-grid.min.scss";
+@import "./header";
+@import "./footer";
+@import "./navigation";
+
+
+body{
+    font-size: 16px;
+    color: #fff;
+    min-width: 280px;
+    background-color: #242B33;
+    overflow-x: hidden;
+}
