@@ -1,0 +1,40 @@
+.about{
+  background-color: #fff;
+}
+.about__row{
+  display: flex;
+  justify-content: center;
+
+}
+.about__content{
+  &-title{
+    padding-top: 111px;
+    color: #6B6867;
+    font-family: $manrope;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  &-subtitle{
+    font-family: $lexend;
+    font-size: 56px;
+    line-height: 56px;
+    color: #1F2132;
+    max-width: 611px;
+    padding-top: 23px;
+    padding-bottom: 16px;
+
+  }
+  &-text{
+    max-width: 585px;
+    font-family: $manrope;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6B6867;
+    padding-bottom: 32px;
+  }
+  &-btn{}
+  &-img{
+    padding-top: 111px;
+  }
+}

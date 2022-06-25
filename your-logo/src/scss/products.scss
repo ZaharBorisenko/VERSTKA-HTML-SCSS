@@ -1,0 +1,33 @@
+.products{
+  background-color: #fff;
+}
+.products__title{
+  padding-top: 140px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+
+  &-subtitle{
+    font-family: $lexend;
+    font-size: 56px;
+    color: #1F2132;
+  }
+}
+
+.products__row{
+  &-title{
+    font-family: $lexend;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1F2132;
+  }
+  &-price{
+    font-family: $manrope;
+    color: #FF825B;
+    font-size: 20px;
+  }
+  &-btn{}
+}
+.products__row-info{
+  text-align: center;
+}
